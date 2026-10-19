@@ -1,0 +1,260 @@
+# Copyright (C) 2024 Fusion Pay Ro tbi
+# This file is distributed under the same license as the Fusion Pay tbi package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Fusion Pay Ro tbi 1.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fusion-pay-ro-"
+"tbi\n"
+"POT-Creation-Date: 2023-09-12 15:56:54+00:00\n"
+"PO-Revision-Date: 2024-09-5 18:58+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ro_RO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#: includes/admin_view.php:12 includes/admin_view.php:197
+msgid "Settings"
+msgstr "Setări"
+
+#: includes/admin_view.php:189 includes/admin_view.php:296
+msgid "installments starting from {installment}/month"
+msgstr "rate incepand de la {installment} LEI."
+
+#: includes/admin_view.php:185
+msgid "Inactive"
+msgstr "Inactiv"
+
+#: includes/admin_view.php:188
+msgid "Active"
+msgstr "Activ"
+
+#: includes/admin_view.php:199
+msgid "Status: "
+msgstr "Status: "
+
+#: includes/admin_view.php:202
+msgid "Reseller Code"
+msgstr "Reseller Code"
+
+#: includes/admin_view.php:206
+msgid "Reseller Key"
+msgstr "Reseller Key"
+
+#: includes/admin_view.php:210
+msgid "Encryption Key"
+msgstr "Encryption Key"
+
+#: includes/admin_view.php:215
+msgid "Disable/Enable pop up on checkout"
+msgstr "Dezactivați/Activați popup-ul de checkout"
+
+#: includes/admin_view.php:218
+msgid ""
+"If experience or functionality is broken on checkout you can mark the "
+"'Disable/Enable pop up on checkout' checkbox."
+msgstr ""
+"Dacă funcționalitatea din pagina de finalizare a comenzii este întreruptă, marcați caseta "
+"\"Dezactivați/Activați popup-ul din checkout.\""
+
+#: includes/admin_view.php:222
+msgid "Order default status"
+msgstr "Starea implicită a comenzii"
+
+#: includes/admin_view.php:247
+msgid "Payment name in checkout"
+msgstr "Numele metodei de plată în checkout"
+
+#: includes/admin_view.php:252
+msgid "Payment description in checkout"
+msgstr "Descrierea metodei de plată în checkout"
+
+#: includes/admin_view.php:252
+msgid "Minimum amount"
+msgstr "Suma minimă"
+
+#: includes/admin_view.php:255
+msgid "Maximum amount"
+msgstr "Suma maximă"
+
+#: includes/admin_view.php:296
+msgid "0% in {installments} for {installment} LEI"
+msgstr "0% in {installments} pentru {installment} LEI."
+
+#: includes/admin_view.php:262
+msgid "Choose button in product page"
+msgstr "Alegeți butonul din pagina produsului"
+
+#: includes/admin_view.php:271 includes/admin_view.php:291
+msgid "/no-button/"
+msgstr "niciun buton"
+
+#: includes/public_view.php:117 includes/public_view.php:223
+msgid "Buy with"
+msgstr "Cumpără cu"
+
+#: includes/admin_view.php:282
+msgid "Choose button in cart page"
+msgstr "Alegeți butonul din pagina coșului de cumpărături"
+
+#: includes/admin_view.php:317
+msgid "Save settings"
+msgstr "Salvați setările"
+
+#: includes/api.php:186 includes/payment_gateway.php:37
+msgid "Pay in installments with tbi bank"
+msgstr "În rate online, fără card de cumpărături"
+
+#: includes/orders_tbi_column.php:17
+msgid "tbi checkout status"
+msgstr "statusul de plată tbi"
+
+#: includes/orders_tbi_column.php:57 includes/orders_tbi_column.php:82
+msgid "Draft"
+msgstr "Ciornă"
+
+#: includes/orders_tbi_column.php:60
+msgid "Pending payment"
+msgstr "Comanda in derulare TBI"
+
+#: includes/orders_tbi_column.php:63
+msgid "Processing"
+msgstr "Comanda in derulare TBI"
+
+#: includes/orders_tbi_column.php:66
+msgid "On hold"
+msgstr "Comanda in derulare TBI"
+
+#: includes/orders_tbi_column.php:69
+msgid "Refunded"
+msgstr "Comanda in derulare TBI"
+
+#: includes/orders_tbi_column.php:72
+msgid "Cancelled"
+msgstr "Comanda anulata TBI"
+
+#: includes/orders_tbi_column.php:75
+msgid "Failed"
+msgstr "Comanda anulata TBI"
+
+#: includes/orders_tbi_column.php:78
+msgid "Completed"
+msgstr "Plata TBI acceptata"
+
+#: includes/payment_gateway.php:38
+msgid "Allows payment in installments with tbi bank"
+msgstr "Permite plata in rate cu tbi bank"
+
+#: includes/payment_gateway.php:68
+msgid "Enable/Disable"
+msgstr "Activați/Dezactivați"
+
+#: includes/payment_gateway.php:69
+msgid "Enable tbi checkout payment Gateway"
+msgstr "Activați gateway-ul de plată pentru checkout tbi"
+
+#: includes/payment_gateway.php:75
+msgid "Title"
+msgstr "Titlu"
+
+#: includes/payment_gateway.php:77
+msgid "This controls the title which the user sees during checkout."
+msgstr "Aceasta controlează titlul pe care utilizatorul îl vede în timpul plății."
+
+#: includes/payment_gateway.php:78
+msgid "Pay in installments with tbi bank"
+msgstr "În rate online, fără card de cumpărături"
+
+#: includes/payment_gateway.php:82
+msgid "Description"
+msgstr "Descriere"
+
+#: includes/payment_gateway.php:84
+msgid "This controls the description which the user sees during checkout."
+msgstr "Aceasta controlează descrierea pe care o vede utilizatorul în timpul plății."
+
+#: includes/payment_gateway.php:85
+msgid ""
+"Pay in installments with tbi bank. <a href=\"#\" "
+"id=\"tbi_check_plans\">Check options</a>"
+msgstr ""
+"Metoda de plată 100% digitală, fără hârtii sau drumuri la bancă <a href=\"#\" id=\"tbi_check_plans\">Vezi opțiunile "
+"</a>"
+
+#: includes/public_view.php:58
+msgid "0% in 4 installments for {installment} LEI"
+msgstr "0% in 4 rate pentru {installment} LEI"
+
+#: includes/public_view.php:252
+msgid "Please select product variation"
+msgstr "Vă rugăm să selectați varianta produsului"
+
+#: includes/public_view.php:252
+msgid "The product is out of stock"
+msgstr "Stocul produsului este epuizat"
+
+#: includes/public_view.php:319
+msgid "please wait"
+msgstr "va rugam asteptati"
+
+#: lib/plugin-updates/Puc/v4p6/Plugin/Ui.php:54
+msgid "View details"
+msgstr "Vezi detalii"
+
+#: lib/plugin-updates/Puc/v4p6/Plugin/Ui.php:77
+msgid "More information about %s"
+msgstr "Mai multe informații despre %s"
+
+#: lib/plugin-updates/Puc/v4p6/Plugin/Ui.php:128
+msgid "Check for updates"
+msgstr "Verificați actualizările"
+
+#: lib/plugin-updates/Puc/v4p6/Plugin/Ui.php:213
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr "Pluginul %s este actualizat."
+
+#: lib/plugin-updates/Puc/v4p6/Plugin/Ui.php:215
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr "Este disponibilă o nouă versiune a pluginului %s ."
+
+#: lib/plugin-updates/Puc/v4p6/Plugin/Ui.php:217
+msgctxt "the plugin title"
+msgid "Could not determine if updates are available for %s."
+msgstr "Nu s-a putut stabili dacă sunt disponibile actualizări pentru %s."
+
+#: lib/plugin-updates/Puc/v4p6/Plugin/Ui.php:223
+msgid "Unknown update checker status \"%s\""
+msgstr "Stare necunoscută a verificatorului de actualizări \"%s\""
+
+#: lib/plugin-updates/Puc/v4p6/Vcs/PluginUpdateChecker.php:98
+msgid "There is no changelog available."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Fusion Pay RO tbi"
+msgstr "Fusion Pay RO tbi"
+
+#. Plugin URI of the plugin/theme
+msgid "https://ro.tbibank.support/fusion-pay-ro-tbi/woocommerce/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Fusion Pay RO tbi is a plugin to help merchants easily integrate tbi bank "
+"payment methods"
+msgstr ""
+"Fusion Pay RO tbi este un plugin care ajută comercianții să integreze cu ușurință banca tbi "
+"metode de plată"
+
+#. Author of the plugin/theme
+msgid "tbi bank ro"
+msgstr "tbi bank ro"
+
+#. Author URI of the plugin/theme
+msgid "https://tbibank.ro"
+msgstr ""

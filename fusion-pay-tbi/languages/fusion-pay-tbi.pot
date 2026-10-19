@@ -1,0 +1,348 @@
+# Copyright (C) 2023 Fusion Pay tbi
+# This file is distributed under the same license as the Fusion Pay tbi package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Fusion Pay tbi 1.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fusion-pay-tbi\n"
+"POT-Creation-Date: 2023-09-12 15:56:54+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2023-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: includes/admin_view.php:12 includes/admin_view.php:267
+msgid "Settings"
+msgstr ""
+
+#: includes/admin_view.php:189 includes/admin_view.php:362
+msgid "{installments} installments of {installment} BGN"
+msgstr ""
+
+#: includes/admin_view.php:189 includes/admin_view.php:362
+msgid "{installments} installments of {eur_installment} EUR ({installment} BGN)"
+msgstr ""
+
+#: includes/admin_view.php:255
+msgid "Inactive"
+msgstr ""
+
+#: includes/admin_view.php:258
+msgid "Active"
+msgstr ""
+
+#: includes/admin_view.php:269
+msgid "Status: "
+msgstr ""
+
+#: includes/admin_view.php:272
+msgid "Reseller Code"
+msgstr ""
+
+#: includes/admin_view.php:276
+msgid "Reseller Key"
+msgstr ""
+
+#: includes/admin_view.php:280
+msgid "Encryption Key"
+msgstr ""
+
+#: includes/admin_view.php:284
+msgid "Button period (up to 5000)"
+msgstr ""
+
+#: includes/admin_view.php:291
+msgid "Button period (up to 10000)"
+msgstr ""
+
+#: includes/admin_view.php:298
+msgid "Button period (up to 30000)"
+msgstr ""
+
+#: includes/admin_view.php:305
+msgid "BNPL min/max amount"
+msgstr ""
+
+#: includes/admin_view.php:312
+msgid "Disable/Enable pop up on checkout"
+msgstr ""
+
+#: includes/admin_view.php:315
+msgid "If experience or functionality is broken on checkout you can mark the 'Disable/Enable pop up on checkout' checkbox."
+msgstr ""
+
+#: includes/admin_view.php:318
+msgid "Disable/Enable Promo schemes for products on sale"
+msgstr ""
+
+#: includes/admin_view.php:321
+msgid "Add delivery"
+msgstr ""
+
+#: includes/admin_view.php:327
+msgid "Add delivery percent"
+msgstr ""
+
+#: includes/admin_view.php:333
+msgid "For amounts below"
+msgstr ""
+
+#: includes/admin_view.php:339
+msgid "Order default status"
+msgstr ""
+
+#: includes/admin_view.php:355
+msgid "Enable/Disable Advertise box"
+msgstr ""
+
+#: includes/admin_view.php:358
+msgid "Button label"
+msgstr ""
+
+#: includes/admin_view.php:361
+msgid "{installments} for {installment}/month"
+msgstr ""
+
+#: includes/admin_view.php:361
+msgid "{installments} for {installment} ({eur_installment} €)/month"
+msgstr ""
+
+#: includes/admin_view.php:366
+msgid "Button placement"
+msgstr ""
+
+#: includes/admin_view.php:385
+msgid "Minimum amount"
+msgstr ""
+
+#: includes/admin_view.php:388
+msgid "Maximum amount"
+msgstr ""
+
+#: includes/admin_view.php:396
+msgid "0% in {installments} for {installment} BGN"
+msgstr ""
+
+#: includes/admin_view.php:396 includes/public_view.php:58 includes/public_view.php:209 includes/public_view.php:262
+msgid "0% in 4 installments for {installment} BGN ({eur_installment})"
+msgstr ""
+
+#: includes/public_view.php:0 includes/api.php:0
+msgid "Minimum amount is %1$s %3$s and maximum amount is %2$s %3$s for loan."
+msgstr ""
+
+#: includes/admin_view.php:399
+msgid "- {price_deduction}% off for {installments} months"
+msgstr ""
+
+#: includes/admin_view.php:402
+msgid "{grace_period} month grace for {installments} months"
+msgstr ""
+
+#: includes/admin_view.php:405
+msgid "{grace_period} months grace for {installments} months"
+msgstr ""
+
+#: includes/admin_view.php:414
+msgid "Promo scheme label"
+msgstr ""
+
+#: includes/admin_view.php:415
+msgid "Promo scheme price range"
+msgstr ""
+
+#: includes/admin_view.php:421
+msgid "List of products"
+msgstr ""
+
+#: includes/admin_view.php:425
+msgid "List of categories"
+msgstr ""
+
+#: includes/admin_view.php:431
+msgid "This promo scheme is active for all categories and products"
+msgstr ""
+
+#: includes/admin_view.php:443
+msgid "Choose button in product page"
+msgstr ""
+
+#: includes/admin_view.php:455 includes/admin_view.php:466
+#: includes/admin_view.php:477 includes/admin_view.php:488
+#: includes/admin_view.php:508 includes/admin_view.php:519
+#: includes/admin_view.php:530 includes/admin_view.php:541
+#: includes/public_view.php:117 includes/public_view.php:222
+msgid "Buy with"
+msgstr ""
+
+#: includes/admin_view.php:496
+msgid "Choose button in cart page"
+msgstr ""
+
+#: includes/admin_view.php:550
+msgid "Save settings"
+msgstr ""
+
+#: includes/api.php:119
+msgid "Fixed delivery"
+msgstr ""
+
+#: includes/api.php:122
+msgid "Free delivery"
+msgstr ""
+
+#: includes/api.php:164 includes/payment_gateway.php:37
+msgid "Pay in installments with tbi bank"
+msgstr ""
+
+#: includes/orders_tbi_column.php:17
+msgid "tbi checkout status"
+msgstr ""
+
+#: includes/orders_tbi_column.php:55 includes/orders_tbi_column.php:85
+msgid "Draft"
+msgstr ""
+
+#: includes/orders_tbi_column.php:58
+msgid "Awaits confirmation"
+msgstr ""
+
+#: includes/orders_tbi_column.php:61
+msgid "Sent in Merchant Portal"
+msgstr ""
+
+#: includes/orders_tbi_column.php:64
+msgid "Sent BNPL"
+msgstr ""
+
+#: includes/orders_tbi_column.php:67
+msgid "In Progress"
+msgstr ""
+
+#: includes/orders_tbi_column.php:70
+msgid "Canceled"
+msgstr ""
+
+#: includes/orders_tbi_column.php:73
+msgid "Rejected"
+msgstr ""
+
+#: includes/orders_tbi_column.php:76
+msgid "Contract signed"
+msgstr ""
+
+#: includes/orders_tbi_column.php:79
+msgid "Paid"
+msgstr ""
+
+#: includes/orders_tbi_column.php:82
+msgid "Annuled"
+msgstr ""
+
+#: includes/payment_gateway.php:38
+msgid "Allows payment in installments with tbi bank"
+msgstr ""
+
+#: includes/payment_gateway.php:68
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/payment_gateway.php:69
+msgid "Enable tbi checkout payment Gateway"
+msgstr ""
+
+#: includes/payment_gateway.php:75
+msgid "Title"
+msgstr ""
+
+#: includes/payment_gateway.php:77
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: includes/payment_gateway.php:78
+msgid "In installments with tbi bank"
+msgstr ""
+
+#: includes/payment_gateway.php:82
+msgid "Description"
+msgstr ""
+
+#: includes/payment_gateway.php:84
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: includes/payment_gateway.php:85
+msgid "Pay in installments with tbi bank. <a href=\"#\" id=\"tbi_check_plans\">Check options</a>"
+msgstr ""
+
+#: includes/public_view.php:58 includes/public_view.php:165
+#: includes/public_view.php:221
+msgid "0% in 4 installments for {installment} BGN"
+msgstr ""
+
+#: includes/public_view.php:221
+msgid "Please select product variation"
+msgstr ""
+
+#: includes/public_view.php:221
+msgid "The product is out of stock"
+msgstr ""
+
+#: includes/public_view.php:334
+msgid "please wait"
+msgstr ""
+
+#: lib/plugin-updates/Puc/v4p6/Plugin/Ui.php:54
+msgid "View details"
+msgstr ""
+
+#: lib/plugin-updates/Puc/v4p6/Plugin/Ui.php:77
+msgid "More information about %s"
+msgstr ""
+
+#: lib/plugin-updates/Puc/v4p6/Plugin/Ui.php:128
+msgid "Check for updates"
+msgstr ""
+
+#: lib/plugin-updates/Puc/v4p6/Plugin/Ui.php:213
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr ""
+
+#: lib/plugin-updates/Puc/v4p6/Plugin/Ui.php:215
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr ""
+
+#: lib/plugin-updates/Puc/v4p6/Plugin/Ui.php:217
+msgctxt "the plugin title"
+msgid "Could not determine if updates are available for %s."
+msgstr ""
+
+#: lib/plugin-updates/Puc/v4p6/Plugin/Ui.php:223
+msgid "Unknown update checker status \"%s\""
+msgstr ""
+
+#: lib/plugin-updates/Puc/v4p6/Vcs/PluginUpdateChecker.php:98
+msgid "There is no changelog available."
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "Fusion Pay tbi"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://beta.tbibank.support/fusion-pay-tbi/woocommerce/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Fusion Pay tbi is a plugin to help merchants easily integrate tbi bank payment methods"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "tbi bank"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://tbibank.bg"
+msgstr ""

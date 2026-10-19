@@ -1,0 +1,385 @@
+# Copyright (C) 2023 Fusion Pay tbi
+# This file is distributed under the same license as the Fusion Pay tbi package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Fusion Pay tbi 1.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fusion-pay-"
+"tbi\n"
+"POT-Creation-Date: 2023-09-12 15:56:54+00:00\n"
+"PO-Revision-Date: 2023-09-12 18:58+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: bg_BG\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#: includes/admin_view.php:12 includes/admin_view.php:267
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/admin_view.php:189 includes/admin_view.php:362
+#: includes/public_view.php:65
+msgid "{installments} installments of {installment} BGN"
+msgstr "{installments} вноски по {installment} BGN"
+
+#: includes/admin_view.php:189 includes/admin_view.php:362
+#: includes/public_view.php:65
+msgid "{installments} installments of {eur_installment} EUR ({installment} BGN)"
+msgstr "{installments} вноски по {eur_installment} EUR ({installment} BGN)"
+
+#: includes/admin_view.php:255
+msgid "Inactive"
+msgstr "Неактивен"
+
+#: includes/admin_view.php:258
+msgid "Active"
+msgstr "Активен"
+
+#: includes/admin_view.php:269
+msgid "Status: "
+msgstr "Статус: "
+
+#: includes/admin_view.php:272
+msgid "Reseller Code"
+msgstr "Reseller Code"
+
+#: includes/admin_view.php:276
+msgid "Reseller Key"
+msgstr "Reseller Key"
+
+#: includes/admin_view.php:280
+msgid "Encryption Key"
+msgstr "Encryption Key"
+
+#: includes/admin_view.php:284
+msgid "Button period (Tier 1)"
+msgstr "Период за първо ниво на оскъпяване"
+
+#: includes/admin_view.php:291
+msgid "Button period (Tier 2)"
+msgstr "Период за второ ниво на оскъпяване"
+
+#: includes/admin_view.php:298
+msgid "Button period (Tier 3)"
+msgstr "Период за трето ниво на оскъпяване"
+
+#: includes/admin_view.php:305
+msgid "BNPL min/max amount"
+msgstr "БНПЛ мин/макс сума"
+
+#: includes/admin_view.php:312
+msgid "Disable/Enable pop up on checkout"
+msgstr "Деактивиране/Активиране на изскачащ прозорец при плащане"
+
+#: includes/admin_view.php:315
+msgid ""
+"If experience or functionality is broken on checkout you can mark the "
+"'Disable/Enable pop up on checkout' checkbox."
+msgstr ""
+"Ако функционалността в checkout  страницата е нарушена маркирайте "
+"\"Деактивиране/Активиране на изскачащ прозорец при плащане\""
+
+#: includes/admin_view.php:318
+msgid "Disable/Enable Promo schemes for products on sale"
+msgstr ""
+"Деактивиране/Активиране на промоционални схеми за продукти в разпродажба"
+
+#: includes/admin_view.php:321
+msgid "Add delivery"
+msgstr "Добави доставка"
+
+#: includes/admin_view.php:327
+msgid "Add delivery percent"
+msgstr "Добави доставка %"
+
+#: includes/admin_view.php:333
+msgid "For amounts below"
+msgstr "За суми под"
+
+#: includes/admin_view.php:339
+msgid "Order default status"
+msgstr "Статус на поръчки по подразбиране"
+
+#: includes/admin_view.php:355
+msgid "Enable/Disable Advertise box"
+msgstr "Включи/Изключи реклама"
+
+#: includes/admin_view.php:358
+msgid "Button label"
+msgstr "Текст в бутона"
+
+#: includes/admin_view.php:361
+msgid "{installments} for {installment}/month"
+msgstr "{installments} вноски по {installment} лв."
+
+#: includes/admin_view.php:361
+msgid "{installments} for {installment} ({eur_installment} €)/month"
+msgstr "{installments} вноски по {eur_installment} € ({installment} лв.)"
+
+#: includes/admin_view.php:366
+msgid "Button placement"
+msgstr "Разположение на бутона"
+
+#: includes/admin_view.php:385
+msgid "Minimum amount"
+msgstr "Минимална сума"
+
+#: includes/admin_view.php:388
+msgid "Maximum amount"
+msgstr "Максимална сума"
+
+#: includes/admin_view.php:396
+#: includes/public_view.php:58
+#: includes/public_view.php:209
+#: includes/public_view.php:262
+msgid "0% in {installments} for {installment} BGN"
+msgstr "0% на {installments} вноски по {installment} лв."
+
+#: includes/admin_view.php:396
+#: includes/public_view.php:58
+#: includes/public_view.php:209
+#: includes/public_view.php:262
+msgid "0% in 4 installments for {installment} BGN ({eur_installment})"
+msgstr "0% на {installments} вноски по {eur_installment} € ({installment} лв.)"
+
+#: includes/admin_view.php:399
+msgid "- {price_deduction}% off for {installments} months"
+msgstr "- {price_deduction}% отстъпка за{installments} месеца"
+
+#: includes/admin_view.php:402
+msgid "{grace_period} month grace for {installments} months"
+msgstr "{grace_period} месец гратис за {installments} месец"
+
+#: includes/admin_view.php:405
+msgid "{grace_period} months grace for {installments} months"
+msgstr "{grace_period} месеца гратис за {installments} месеца"
+
+#: includes/admin_view.php:414
+msgid "Promo scheme label"
+msgstr "Надпис на промо схема"
+
+#: includes/admin_view.php:415
+msgid "Promo scheme price range"
+msgstr "Ценови диапазон за промо схема"
+
+#: includes/admin_view.php:421
+msgid "List of products"
+msgstr "Списък с ID на продукти"
+
+#: includes/admin_view.php:425
+msgid "List of categories"
+msgstr "Списък с ID на категории"
+
+#: includes/admin_view.php:431
+msgid "This promo scheme is active for all categories and products"
+msgstr "Тази промо схема е активна за всички категории и продукти"
+
+#: includes/admin_view.php:443
+msgid "Choose button in product page"
+msgstr "Избери бутон за продуктовата страница"
+
+#: includes/admin_view.php:455 includes/admin_view.php:466
+#: includes/admin_view.php:477 includes/admin_view.php:488
+#: includes/admin_view.php:508 includes/admin_view.php:519
+#: includes/admin_view.php:530 includes/admin_view.php:541
+#: includes/public_view.php:117 includes/public_view.php:222
+msgid "Buy with"
+msgstr "Купи с"
+
+#: includes/admin_view.php:496
+msgid "Choose button in cart page"
+msgstr "Избери бутон в количка"
+
+#: includes/admin_view.php:550
+msgid "Save settings"
+msgstr "Запази настройките"
+
+#: includes/admin_view.php:550
+msgid "Tier 1 limit"
+msgstr "Лимит за първо ниво оскъпяване"
+
+#: includes/admin_view.php:550
+msgid "Tier 2 limit"
+msgstr "Лимит за второ ниво оскъпяване"
+
+#: includes/admin_view.php:550
+msgid "Tier 3 limit"
+msgstr "Лимит за трето ниво оскъпяване"
+
+#: includes/api.php:119
+msgid "Fixed delivery"
+msgstr "Фиксирана доставка"
+
+#: includes/api.php:122
+msgid "Free delivery"
+msgstr "Безплатна доставка"
+
+#: includes/api.php:164 includes/payment_gateway.php:37
+msgid "Pay in installments with tbi bank"
+msgstr "Плати на вноски с tbi bank"
+
+#: includes/orders_tbi_column.php:17
+msgid "tbi checkout status"
+msgstr "tbi статус"
+
+#: includes/orders_tbi_column.php:55 includes/orders_tbi_column.php:85
+msgid "Draft"
+msgstr "Недовършена заявка"
+
+#: includes/orders_tbi_column.php:58
+msgid "Awaits confirmation"
+msgstr "Изчаква потвърждение"
+
+#: includes/orders_tbi_column.php:61
+msgid "Sent in Merchant Portal"
+msgstr "Изпратена в Merchant Portal"
+
+#: includes/orders_tbi_column.php:64
+msgid "Sent BNPL"
+msgstr "Изпратен БНПЛ"
+
+#: includes/orders_tbi_column.php:67
+msgid "In Progress"
+msgstr "В процес на обработка"
+
+#: includes/orders_tbi_column.php:70
+msgid "Canceled"
+msgstr "Отказана"
+
+#: includes/orders_tbi_column.php:73
+msgid "Rejected"
+msgstr "Отхвърлена"
+
+#: includes/orders_tbi_column.php:76
+msgid "Contract signed"
+msgstr "Подписан договор"
+
+#: includes/orders_tbi_column.php:79
+msgid "Paid"
+msgstr "Платен"
+
+#: includes/orders_tbi_column.php:82
+msgid "Annuled"
+msgstr "Анулиран"
+
+#: includes/payment_gateway.php:38
+msgid "Allows payment in installments with tbi bank"
+msgstr "Разреши плащане на вноски с tbi bank"
+
+#: includes/payment_gateway.php:68
+msgid "Enable/Disable"
+msgstr "Включи/Изключи"
+
+#: includes/payment_gateway.php:69
+msgid "Enable tbi checkout payment Gateway"
+msgstr "Включи tbi платежен метод"
+
+#: includes/payment_gateway.php:75
+msgid "Title"
+msgstr "Име"
+
+#: includes/payment_gateway.php:77
+msgid "This controls the title which the user sees during checkout."
+msgstr "Това контролира видимия надпис в чекаут."
+
+#: includes/payment_gateway.php:78
+msgid "In installments with tbi bank"
+msgstr "На вноски с tbi bank"
+
+#: includes/payment_gateway.php:82
+msgid "Description"
+msgstr "Описание"
+
+#: includes/payment_gateway.php:84
+msgid "This controls the description which the user sees during checkout."
+msgstr "Това контролира видимия надпис в чекаут."
+
+#: includes/payment_gateway.php:85
+msgid ""
+"Pay in installments with tbi bank. <a href=\"#\" "
+"id=\"tbi_check_plans\">Check options</a>"
+msgstr ""
+"Плати на вноски. Виж <a href=\"#\" id=\"tbi_check_plans\">погасителните "
+"планове</a>"
+
+#: includes/public_view.php:58
+msgid "0% in 4 installments for {installment} BGN"
+msgstr "0% на {installments} вноски по {installment} лв."
+
+#: includes/public_view.php:221
+msgid "Please select product variation"
+msgstr "Моля изберете разновидност на продукта"
+
+#: includes/public_view.php:221
+msgid "The product is out of stock"
+msgstr "Продукта е изчерпан"
+
+#: includes/public_view.php:334
+msgid "please wait"
+msgstr "моля изчакайте"
+
+#: includes/public_view.php:0 includes/api.php:0
+msgid "Minimum amount is %1$s %3$s and maximum amount is %2$s %3$s for loan."
+msgstr "Минималната сума за кредит е %1$s %3$s, а максималната е %2$s %3$s."
+
+#: lib/plugin-updates/Puc/v4p6/Plugin/Ui.php:54
+msgid "View details"
+msgstr "Виж детайли"
+
+#: lib/plugin-updates/Puc/v4p6/Plugin/Ui.php:77
+msgid "More information about %s"
+msgstr "Повече информация %s"
+
+#: lib/plugin-updates/Puc/v4p6/Plugin/Ui.php:128
+msgid "Check for updates"
+msgstr "Провери за ъпдейти"
+
+#: lib/plugin-updates/Puc/v4p6/Plugin/Ui.php:213
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr "%s е актуален."
+
+#: lib/plugin-updates/Puc/v4p6/Plugin/Ui.php:215
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr "Налична е нова версия на %s ."
+
+#: lib/plugin-updates/Puc/v4p6/Plugin/Ui.php:217
+msgctxt "the plugin title"
+msgid "Could not determine if updates are available for %s."
+msgstr "Не можем да установим дали %s има по-нова версия."
+
+#: lib/plugin-updates/Puc/v4p6/Plugin/Ui.php:223
+msgid "Unknown update checker status \"%s\""
+msgstr "Неясен статус на актуализацията \"%s\""
+
+#: lib/plugin-updates/Puc/v4p6/Vcs/PluginUpdateChecker.php:98
+msgid "There is no changelog available."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Fusion Pay tbi"
+msgstr "Fusion Pay tbi"
+
+#. Plugin URI of the plugin/theme
+msgid "https://beta.tbibank.support/fusion-pay-tbi/woocommerce/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Fusion Pay tbi is a plugin to help merchants easily integrate tbi bank "
+"payment methods"
+msgstr ""
+"Fusion Pay tbi е плъгин, който позволява лесна интеграция на платежни "
+"методи от tbi bank"
+
+#. Author of the plugin/theme
+msgid "tbi bank"
+msgstr "tbi bank"
+
+#. Author URI of the plugin/theme
+msgid "https://tbibank.bg"
+msgstr ""

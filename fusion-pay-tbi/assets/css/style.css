@@ -1,0 +1,414 @@
+/* style.css — merged BG + RO frontend styles */
+
+label[for="payment_method_tbi_bank"] img {
+    width: 80px;
+}
+
+/* -----------------------------------------------------------------------
+ * Button variant 1 — orange background, white text
+ * ----------------------------------------------------------------------- */
+
+.tbi_button_container1 {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    overflow-y: hidden;
+    transition: 0.3s;
+}
+
+.tbi_button1 {
+    text-decoration: none !important;
+    outline: 0 !important;
+    display: inline-block;
+    margin: 20px 0;
+    min-width: 250px;
+    max-width: 90%;
+}
+
+.tbi_button1_cart {
+    text-decoration: none !important;
+    outline: 0 !important;
+    display: inline-block;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.tbi_button_body1 {
+    border-radius: 8px;
+    min-height: 50px;
+    -webkit-box-shadow: 0px 2px 4px 0px rgb(0 0 0 / 40%);
+    box-shadow: 0px 2px 4px 0px rgb(0 0 0 / 40%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #ff6600;
+    color: #fff;
+    padding: 3px 10px;
+}
+
+.tbi_button_logo1 {
+    max-height: 25px;
+    width: auto;
+    margin: -2px 0 0 5px;
+}
+
+/* -----------------------------------------------------------------------
+ * Button variant 2 — orange background, dark text (BG default)
+ * ----------------------------------------------------------------------- */
+
+.tbi_button_container2 {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    overflow-y: hidden;
+    transition: 0.3s;
+}
+
+.tbi_button2 {
+    text-decoration: none !important;
+    outline: 0 !important;
+    display: inline-block;
+    margin: 20px 0;
+    min-width: 250px;
+    max-width: 90%;
+}
+
+.tbi_button2_cart {
+    text-decoration: none !important;
+    outline: 0 !important;
+    display: inline-block;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.tbi_button_body2 {
+    border-radius: 8px;
+    min-height: 50px;
+    -webkit-box-shadow: 0px 2px 4px 0px rgb(0 0 0 / 40%);
+    box-shadow: 0px 2px 4px 0px rgb(0 0 0 / 40%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #ff6600;
+    color: #000;
+    padding: 3px 10px;
+}
+
+.tbi_button_logo2 {
+    max-height: 25px;
+    width: auto;
+    margin: -2px 0 0 5px;
+}
+
+/* -----------------------------------------------------------------------
+ * Button variant 2 — neutral/gray horizontal layout (RO style)
+ * Used when tbi_product_checked=2 on RO stores
+ * ----------------------------------------------------------------------- */
+
+.tbi_button_body2--neutral {
+    border-radius: 8px;
+    height: 50px;
+    border: 1px solid #e1e1e1;
+    -webkit-box-shadow: 0px 2px 4px 0px rgb(0 0 0 / 40%);
+    box-shadow: 0px 2px 4px 0px rgb(0 0 0 / 40%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #f4f4f4;
+    color: #000;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+
+.tbi_button_logo2--neutral {
+    max-height: 40px;
+    width: auto;
+}
+
+/* RO orange text utility class */
+.text-orange {
+    color: #ff6600;
+}
+
+/* -----------------------------------------------------------------------
+ * Shared button line
+ * ----------------------------------------------------------------------- */
+
+.tbi_button_line {
+    font-family: 'Inter', open-sans;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 3px 10px;
+    text-align: center;
+}
+
+/* -----------------------------------------------------------------------
+ * Button variant 3 — black background, white text
+ * ----------------------------------------------------------------------- */
+
+.tbi_button_container3 {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    overflow-y: hidden;
+    transition: 0.3s;
+}
+
+.tbi_button3_cart {
+    text-decoration: none !important;
+    outline: 0 !important;
+    display: inline-block;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.tbi_button3 {
+    text-decoration: none !important;
+    outline: 0 !important;
+    display: inline-block;
+    margin: 20px 0;
+    min-width: 250px;
+    max-width: 90%;
+}
+
+.tbi_button_body3 {
+    border-radius: 8px;
+    min-height: 50px;
+    -webkit-box-shadow: 0px 2px 4px 0px rgb(0 0 0 / 40%);
+    box-shadow: 0px 2px 4px 0px rgb(0 0 0 / 40%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #000;
+    color: #fff;
+    padding: 3px 10px;
+}
+
+.tbi_button_logo3 {
+    max-height: 25px;
+    width: auto;
+    margin: -2px 0 0 5px;
+}
+
+/* -----------------------------------------------------------------------
+ * Button variant 4 — black background, white text (product)
+ * ----------------------------------------------------------------------- */
+
+.tbi_button_container4 {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    overflow-y: hidden;
+    transition: 0.3s;
+}
+
+.tbi_button4 {
+    text-decoration: none !important;
+    outline: 0 !important;
+    display: inline-block;
+    margin: 20px 0;
+    cursor: pointer;
+    min-width: 250px;
+    max-width: 90%;
+}
+
+.tbi_button4_cart {
+    text-decoration: none !important;
+    outline: 0 !important;
+    display: inline-block;
+    margin: 20px 0;
+    min-width: 250px;
+    cursor: pointer;
+}
+
+.tbi_button_body4 {
+    border-radius: 8px;
+    min-height: 50px;
+    -webkit-box-shadow: 0px 2px 4px 0px rgb(0 0 0 / 40%);
+    box-shadow: 0px 2px 4px 0px rgb(0 0 0 / 40%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #000;
+    color: #fff;
+    padding: 3px 10px;
+}
+
+.tbi_button_logo4 {
+    max-height: 25px;
+    width: auto;
+    margin: -2px 0 0 5px;
+}
+
+/* -----------------------------------------------------------------------
+ * Advertisement banner
+ * ----------------------------------------------------------------------- */
+
+#tbicheckout_advertisement {
+    position: fixed;
+    left: 10px;
+    bottom: 40%;
+    width: 100%;
+    max-width: 90px;
+    z-index: 99998;
+}
+
+#tbicheckout_small_popup {
+    max-width: 800px;
+    background: #fff;
+    padding: 6px 6px;
+    border: 1px solid #f46424;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+    cursor: pointer;
+    transition: 0.3s ease-in;
+    opacity: 0.8;
+}
+
+#tbicheckout_small_popup:hover {
+    opacity: 1;
+    box-shadow: 0 0 20px rgb(0 0 0 / 60%);
+    transition: 0.3s ease-out;
+}
+
+#tbicheckout_big_popup {
+    width: 90vw;
+    height: 220px;
+    max-width: 400px;
+    max-height: 0;
+    margin: 8px 0 0 0;
+    border-radius: 8px;
+    opacity: 0;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+    position: relative;
+    overflow: hidden;
+    transition: 300ms ease-in-out;
+}
+
+#tbicheckout_advertisement_iframe {
+    width: 100%;
+    height: 100%;
+    margin: 0 0 -10px 0;
+    padding: 0;
+    border: 0;
+}
+
+.tbicheckout_expand {
+    opacity: 1 !important;
+    max-height: 400px !important;
+    max-width: 400px !important;
+}
+
+/* -----------------------------------------------------------------------
+ * Popup / iframe overlay
+ * ----------------------------------------------------------------------- */
+
+#tbi_popup_container {
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+    height: 100%;
+    background: rgba(51, 51, 51, 0.3);
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#iframe_container {
+    width: 768px;
+    height: 90vh;
+    max-width: 100%;
+    min-height: 400px;
+    max-height: 720px;
+    position: relative;
+    background: #F4F4F4;
+    border-radius: 24px;
+}
+
+#tbi_popup_iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 24px;
+}
+
+#tbi_loading {
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+    width: 130px;
+    height: 130px;
+    max-width: 50%;
+}
+
+#tbi_loading_text {
+    font-size: 15px;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    width: 100%;
+}
+
+/* -----------------------------------------------------------------------
+ * Responsive
+ * ----------------------------------------------------------------------- */
+
+@media only screen and (max-width: 767px) {
+    #tbicheckout_small_popup {
+        padding: 5px;
+        max-width: 70px;
+    }
+
+    #tbicheckout_advertisement {
+        left: 6px;
+        bottom: 15%;
+    }
+
+    #tbi_popup_iframe {
+        width: 100%;
+    }
+
+    #iframe_container,
+    #tbi_popup_iframe {
+        border-radius: 0;
+        max-height: 2000px;
+    }
+
+    #tbi_popup_container {
+        align-items: flex-end;
+    }
+}
+
+/* -----------------------------------------------------------------------
+ * Loading animation (BG braille dots)
+ * ----------------------------------------------------------------------- */
+
+.tbi-loading {
+    opacity: 0.7;
+    font-style: italic;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.tbi-dots {
+    display: inline-block;
+    font-family: monospace;
+    font-size: 1.2em;
+    line-height: 1;
+    color: #666;
+}
+
+#tbi_button .tbi_button_line .tbi-loading {
+    color: inherit;
+}
+
+#tbi_button.loading .tbi_button_body {
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}

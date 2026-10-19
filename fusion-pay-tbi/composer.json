@@ -1,0 +1,19 @@
+{
+    "name": "tbi/fusion-pay-tbi-tests",
+    "description": "Test-only Composer manifest for the fusion-pay-tbi PHPUnit suite. Not shipped with the plugin.",
+    "type": "project",
+    "license": "proprietary",
+    "private": true,
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FusionPayTbi\\": "src/",
+            "FusionPayTbi\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
